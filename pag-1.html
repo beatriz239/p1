@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Balé | Loja Online</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="estilo1.css">
+</head>
+
+<body>
+  <header>
+    <div class="search-bar">
+      <img src="img/logo.png" alt="" width="180">
+      <div class="input-container">
+        <input type="search" id="search" placeholder="O que você está buscando? 🔎">
+      </div>
+    </div>
+    <nav class="menu">
+      <a href="index.html">Home</a>
+      <a href="pag-3.html">Produtos</a>
+      <a href="pag-2.html">Quem somos</a>
+    </nav>
+  </header>
+
+  <div class="slider">
+    <div class="slides">
+      <!-- Radio Buttons -->
+      <input type="radio" name="radio-btn" id="radio1">
+      <input type="radio" name="radio-btn" id="radio2">
+      <input type="radio" name="radio-btn" id="radio3">
+      <input type="radio" name="radio-btn" id="radio4">
+      <input type="radio" name="radio-btn" id="radio5">
+      <!-- Fim Radio Buttons -->
+
+      <!-- Slide Images -->
+      <div class="slide first">
+        <img src="img/banner1.avif" alt="Imagem 1">
+      </div>
+
+      <div class="slide">
+        <img src="img/banner2.webp" alt="Imagem 2">
+      </div>
+
+      <div class="slide">
+        <img src="img/banner3.webp" alt="Imagem 3">
+      </div>
+
+      
+    </div>
+
+    <div class="manual-navigation">
+      <label for="radio1" class="manual-btn"></label>
+      <label for="radio2" class="manual-btn"></label>
+      <label for="radio3" class="manual-btn"></label>
+    </div>
+  </div>
+
+  
+
+  
+
+  <h3>Produtos</h3>
+  <div class="container">
+    <div class="products">
+      <!-- Produto 1 -->
+      <div class="product">
+        <img src="img/produto1.png" alt="Produto 1">
+        <h2>Collant preto</h2>
+        <p>Collant preto de tule</p>
+        <button onclick="window.location.href='product-details.html?product=0'">Comprar</button>
+      </div>
+      <!-- Produto 2 -->
+      <div class="product">
+        <img src="img/produto2.png" alt="Produto 2">
+        <h2>Sapatilha de ponta</h2>
+        <p>sapatilha de ponta rosa</p>
+        <button onclick="window.location.href='product-details.html?product=1'">Comprar</button>
+      </div>
+      <!-- Produto 3 -->
+      <div class="product">
+        <img src="img/produto3.png" alt="Produto 3">
+        <h2>Collant vermelho</h2>
+        <p>Collant vermelho com recortes</p>
+        <button onclick="window.location.href='product-details.html?product=2'">Comprar</button>
+      </div>
+      <!-- Produto 4 -->
+      <div class="product">
+        <img src="img/produto4.webp" alt="Produto 4" width="300px">
+        <h2>Saia</h2>
+        <p>saia azul brilhante</p>
+        <button onclick="window.location.href='product-details.html?product=3'">Comprar</button>
+      </div>
+      <!-- Produto 5 -->
+      <div class="product">
+        <img src="img/produto5.webp" alt="Produto 5">
+        <h2>Saia longa</h2>
+        <p>saia longa transparente</p>
+        <button onclick="window.location.href='product-details.html?product=4'">Comprar</button>
+      </div>
+      <!-- Produto 6 -->
+      <div class="product">
+        <img src="img/produto6.webp" alt="Produto 6">
+        <h2>Collant</h2>
+        <p>Collante rosa</p>
+        <button onclick="window.location.href='product-details.html?product=5'">Comprar</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-info">
+        <h4>Contato</h4>
+        <p>Email: <a href="mailto:contato@exemplo.com">contato@exemplo.com</a></p>
+        <p>Telefone: +55 (11) 1234-5678</p>
+      </div>
+      <div class="footer-social">
+        <h4>Redes Sociais</h4>
+        <a href="https://www.facebook.com/loja" class="social-icon" target="_blank">
+          <i class="fab fa-facebook"></i> Facebook
+        </a>
+        <a href="https://www.instagram.com/loja" class="social-icon" target="_blank">
+          <i class="fab fa-instagram"></i> Instagram
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Loja Online | Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="slide.js"></script>
+</body>
+</html>
